@@ -15,4 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+
+Route::get('/kas_ir_trifeles', function () {
+    return view('kas_ir_trifeles');
+})->name('kas_ir_trifeles');
+
+Route::get('/trifelu_fakti', function () {
+    return view('trifelu_fakti');
+})->name('trifelu_fakti');
