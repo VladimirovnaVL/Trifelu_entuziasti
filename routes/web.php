@@ -39,3 +39,9 @@ Route::get('/kas_ir_trifeles', function () {
 Route::get('/trifelu_fakti', function () {
     return view('trifelu_fakti');
 })->name('trifelu_fakti');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth'])->name('dashboard');
+
+require __DIR__.'/auth.php';

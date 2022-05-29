@@ -27,7 +27,7 @@
 	<a href="{{route('kas_ir_trifeles')}}">Kas ir trifeles?</a>
 	  <a href="#numlist">Trifeļu īpašības</a>
 	  <a href="{{route('trifelu_fakti')}}">Fakti par trifelem</a>
-	  <a href="{{route('trifelu_fakti')}}">DASHBOARD</a>
+	  <a href="*">DASHBOARD</a>
 	</div>
 
 	</div>
