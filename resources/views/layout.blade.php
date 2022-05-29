@@ -23,10 +23,11 @@
 	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   
 	<div class="overlay-content"> 
-	  <a href="main.html">Galvenā</a>
-	  <a href="trifeles.html">Kas ir trifeles?</a>
+	<a href="{{route('welcome')}}">Galvenā</a>
+	<a href="{{route('kas_ir_trifeles')}}">Kas ir trifeles?</a>
 	  <a href="#numlist">Trifeļu īpašības</a>
-	  <a href="trifeles2.html">Fakti par trifelem</a>
+	  <a href="{{route('trifelu_fakti')}}">Fakti par trifelem</a>
+	  <a href="{{route('trifelu_fakti')}}">DASHBOARD</a>
 	</div>
 
 	</div>

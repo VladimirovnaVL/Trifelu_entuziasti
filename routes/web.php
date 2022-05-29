@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::controller(PostController::class)->group(function () {
+    Route::prefix('posts')->group(function () {
+        Route::get('/', 'index')->name('posts.index');
+        Route::get('/create', 'create');
+        Route::post('/create', 'store')->name('posts.create');
+        Route::get('/show/{post}', 'show')->name('posts.show');
+        Route::get('/edit/{post}', 'edit')->name('posts.edit');
+        Route::post('/edit/{post}', 'update');
+        Route::get('/delete/{post}', 'destroy')->name('posts.delete');
+
+    });
+});
+
+
+
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
