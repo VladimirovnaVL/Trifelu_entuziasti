@@ -6,7 +6,9 @@
 	<meta charset="UTF-8">
     <title >Latvijas trifeļu entuziasti</title>
 </head>
-<header>    	
+
+<header>   
+
 		<div class="info">
 			<a href="{{route('welcome')}}"> 
 			<img src="/img/logo.png" class="logo" alt="Heading image">

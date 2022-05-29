@@ -12,9 +12,12 @@ $title = "Uzsāc vērtigo trifeļu audzēšanu savā saimniecībā!"
 @section('content')
 	
 <div class="content">
+
 	
 	<div class="section1">
-
+<a href="{{route('login')}}" class="button">Login</a>
+<a href="{{route('register')}}" class="button">Register</a>
+	
 		<h3>Latvijas trifeļu dārzi</h3>
 
 		<p>Audzēt trifeles – šīs izsmalcinātās un vērtīgās sēnes – mākslīgi ir mēģināts jau izsenis, bet tikai apmēram pirms četrdesmit gadiem Francijā ieviesa kultivēšanas metodi, īpaši izvēlētos dārzos stādot ozolus, lazdas un citus kokus, kuri inficēti ar trifelēm. Tagad iespēja audzēt trifeles paradijas arī latvijas lauksaimniekiem.</p>

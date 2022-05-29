@@ -40,6 +40,14 @@ Route::get('/trifelu_fakti', function () {
     return view('trifelu_fakti');
 })->name('trifelu_fakti');
 
+Route::get('/register', function () {
+    return view('register');
+})->name('register');
+
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
